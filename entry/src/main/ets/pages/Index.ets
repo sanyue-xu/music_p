@@ -1,4 +1,4 @@
-import { TabType } from '../models/Index';
+import { TabType } from '../models';
 
 
 @Entry
