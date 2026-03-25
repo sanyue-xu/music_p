@@ -36,3 +36,6 @@ export interface RecommendListType {
   title: string;	// 标题
   count: string;	// 播放量
 }
+export const getSongList = async () => {
+  return await getData('/data/songList');
+};

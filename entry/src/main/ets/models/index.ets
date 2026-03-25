@@ -15,3 +15,10 @@ export interface DailyRecommendType {
   top: string;	  // 类型背景色
   bottom: string;	// 标题背景色
 }
+export interface SongItemType {
+  img: string;		// 封面图
+  title: string;	// 歌曲名称
+  artist: string;	// 艺术家
+  url: string;   	// 歌曲URL
+  id: string;     // 唯一标识
+}
