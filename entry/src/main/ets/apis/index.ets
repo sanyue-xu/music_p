@@ -21,21 +21,12 @@ export const getDailyRecommend = async () => {
 export const getSwiper = async () => {
   return await getData('/data/swiper');
 }
-export interface DailyRecommendType {
-  img: string;	  // 封面图
-  title: string;	// 标题
-  type: string;	  // 类型
-  top: string;	  // 类型背景色
-  bottom: string;	// 标题背景色
-}
 export const getRecommendList = async () => {
   return await getData('/data/recommendList');
 };
-export interface RecommendListType {
-  img: string;		// 封面图
-  title: string;	// 标题
-  count: string;	// 播放量
-}
 export const getSongList = async () => {
   return await getData('/data/songList');
+};
+export const getMomentList = async () => {
+  return await getData('/data/momentList');
 };
